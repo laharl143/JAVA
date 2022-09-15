@@ -1,4 +1,4 @@
-public class HelloJava {     //1. The class keyword = class ; 2. The class name = HelloJava 
+public class HelloJava {     //1. The class keyword = class ; 2. The class name = HelloJava  !!!!!Yes. The file name must be consistent with the class name.!!!!! <---- or it will have an error
     public static void main(String[] args) {
         System.out.println("Hello Java");
     }
