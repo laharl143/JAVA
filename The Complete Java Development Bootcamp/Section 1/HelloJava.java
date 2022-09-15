@@ -6,7 +6,7 @@ public class HelloJava {     //1. The class keyword = class ; 2. The class name 
 }
 //How I wrote this code? Step by step:
 //public class boiler plate   line of code #1
-//main boiler plate           line of code #2 + run | Debug
+//main() boiler plate           line of code #2 + run | Debug
 //System.out.println boiler plate    line of code #3
 //then I wrote the Hello Java        line of code #3
 
