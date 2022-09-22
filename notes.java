@@ -49,7 +49,7 @@ Operators:
 - (minus)
 * (multiply)
 / (divide)
-% (modulus) - returns the remainder of a division
+% (modulus) - returns the remainder of a division ; modulus is often used to identify odd or even numbers
 ++ (add 1)  - increases the value by 1
 -- (subtract 1) - decreases the value by 1
 += (add by) - increases the value by number on the right
