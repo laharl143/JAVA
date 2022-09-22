@@ -37,5 +37,24 @@
 -use long to store very large whole numbers
 -use double to store and work with decimals
 
+Storing Variables:
+int: whole numbers
+long: large whole numbers
+double: decimals
+char: characters
+String: text    //always take note that "S" in String is always capital
+
+Operators:
++ (plus)
+- (minus)
+* (multiply)
+/ (divide)
+% (modulus) - returns the remainder of a division
+++ (add 1)  - increases the value by 1
+-- (subtract 1) - decreases the value by 1
++= (add by) - increases the value by number on the right
+-= (subtract by) - decreases the value by number on the right
+
+
 
  */

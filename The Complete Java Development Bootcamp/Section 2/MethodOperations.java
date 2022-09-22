@@ -1,0 +1,48 @@
+
+public class MethodOperations {
+    public static void main(String[] args) {
+        int bagOfSweets1 = 5;
+        int bagOfSweets2 = 10;
+
+        long starsInMilkyWay = 2500000000L;
+        long starsInAndromeda = 1000000000000L;
+
+        double testScore = 6.7;
+        double bonusMarks = 2.5;
+
+        System.out.println("Fred and George collected " + (bagOfSweets1 + bagOfSweets2) + " sweets."); 
+        System.out.println("There are "+ (starsInMilkyWay + starsInAndromeda) + " stars in the Milky Way and Andromeda galaxies.");
+        System.out.println("With bonus marks, Ron scored " + (testScore + bonusMarks) +"/10 on his potions test. Snape wasn't too thrilled.");
+
+        System.out.println("Fred has " + (bagOfSweets2 - bagOfSweets1) + " more sweets than George."); 
+        System.out.println("The Andromeda Galaxy has "+ (starsInAndromeda - starsInMilkyWay) + " more stars than the Milky Way.");
+        System.out.println("Snape ended up removing marks. Ron actually scored " + (testScore - bonusMarks) +"/10 on his potions test.");
+
+        System.out.println(bagOfSweets1 * bagOfSweets2);
+        System.out.println(testScore * bonusMarks);
+
+        System.out.println("Fred and George used a special spell to multiply their sweets to:  " + (bagOfSweets2 * bagOfSweets1) + ".");
+        System.out.println("Snape made an error on his excel, accidentally multiplying Ron's score to: " + (testScore * bonusMarks) + "/10.");
+
+    }
+}
+
+/*
+Output: 
+ 
+*/
+
+/*
+Notes: 
+-an operation between whole numbers returns a whole number.
+-an operation between decimals will preserve the decimal.
+ 
+*/
+
+
+// Fred and George used a special spell to multiply their sweets to: <result>
+// Snape made an error on his excel, accidentally multiplying Ron's score to: <result>/10
+
+// Originally, Fred had  <result> times more sweets than George
+// Andromeda has <result> times more stars
+// Snape caught the error. Furious, he divided Ron's score to: <result>
