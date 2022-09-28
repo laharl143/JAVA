@@ -1,3 +1,5 @@
+//Objective: When it comes to $24000, we don't care about cents. Print each value as a whole number (24309), not a decimal (24309.65).
+
 public class Meeting {
     public static void main(String[] args) {
         double sales = 24309.65; 
@@ -19,5 +21,8 @@ public class Meeting {
 }
 /*
 final output:
-Percy's monthly salary is $5833
+This month, we made $24309 in sales
+Factoring in costs, we made $18562 in profit
+The refunds are at a low $688. This is a good sign!
+Shipping costs were high. We paid $1233  in shipping
  */
