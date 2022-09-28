@@ -6,3 +6,7 @@ public class TypeConversion {
     }
  
 }
+/*
+final output:
+Percy's monthly salary is $5833
+ */
