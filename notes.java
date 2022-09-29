@@ -50,7 +50,7 @@ char: characters
 String: text    //always take note that "S" in String is always capital
 
 ////////////////////////////////////////////////////////////////
-Operators:
+Operators: (reference: Section 2/MethodOperations.java )
 + (plus)
 - (minus)
 * (multiply)
