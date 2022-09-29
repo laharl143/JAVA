@@ -29,7 +29,7 @@ public class SignUp {
         – You will understand why this happens when we cover Delimiters in the next section (Booleans and Conditionals).
         – For now, just know that the solution is to add an extra nextLine().
         */
-        String usernamex = scan.nextLine();
+        scan.nextLine();
         System.out.println("\nChoose a username: ");
         String username = scan.nextLine();
         //Ask what city they live in.

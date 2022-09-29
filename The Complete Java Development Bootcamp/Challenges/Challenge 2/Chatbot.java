@@ -29,7 +29,7 @@ public class Chatbot {
         System.out.println("Enough about me. What's your favourite language? (just don't say Python)");
         //Pick up language and store it. 
 
-        String languagex = scan.nextLine();
+        scan.nextLine();
         String language = scan.nextLine();
 
         //add new a line here.
