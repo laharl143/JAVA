@@ -1,8 +1,14 @@
 /*
+Autocomplete in vscode:
+main = public static void main(String[] args)
+sout = System.out.println();
+
+////////////////////////////////////////////////////////////////
 Good Coding Habit:
 class/file name: CamelCase.
 variable: lowerCamelCase.
 
+////////////////////////////////////////////////////////////////
 -How I wrote this code? Step by step:
 -public class boiler plate   line of code #1
 -main() boiler plate           line of code #2 + run | Debug
@@ -78,6 +84,21 @@ nextDouble() to scan for a double value
 nextLong(): to scan for a long value.
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Booleans
+
+Comparison || Comparison Name:
+>       greater than
+<       less than
+>=      greater than or equal
+<=      less than or equal
+==      equal to
+!=      not equal to
+equals  equal to (for String)       //example: (sentence1.equals(sentence2))
+!equals not equal to (for String)   //example: (!sentence1.equals(sentence2))
+
+
+
+
 
 
 
