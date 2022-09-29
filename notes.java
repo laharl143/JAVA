@@ -96,6 +96,23 @@ Comparison || Comparison Name:
 equals  equal to (for String)       //example: (sentence1.equals(sentence2))
 !equals not equal to (for String)   //example: (!sentence1.equals(sentence2))
 
+////////////////////////////////////////////////////////////////
+If, Else Statement Logic
+
+if (true) {                                 //if the statement is true, it will print the if statement
+            System.out.println("Hello");       
+        } else {
+            System.out.println("Goodbye");
+        }
+output: Hello
+
+if (false) {                                //if the statement is false, it will print the else statement
+            System.out.println("Hello");
+        } else {
+            System.out.println("Goodbye");
+        }
+output: Goodbye
+
 
 
 
