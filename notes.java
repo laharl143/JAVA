@@ -1,4 +1,8 @@
 /*
+Good Coding Habit:
+class/file name: CamelCase.
+variable: lowerCamelCase.
+
 -How I wrote this code? Step by step:
 -public class boiler plate   line of code #1
 -main() boiler plate           line of code #2 + run | Debug
@@ -42,12 +46,13 @@
 -use double to store and work with decimals
 
 ////////////////////////////////////////////////////////////////
-Storing Variables:
+Data Types
 int: whole numbers
 long: large whole numbers
 double: decimals
 char: characters
-String: text    //always take note that "S" in String is always capital
+boolean: true of false
+String: text    !!!!//always take note that "S" in String is always capital
 
 ////////////////////////////////////////////////////////////////
 Operators: (reference: Section 2/MethodOperations.java )
@@ -70,6 +75,7 @@ scan.close(); //always use this line of code after using scan to refrain from me
 nextLine() to scan for a String value
 nextInt() to scan for a integer value
 nextDouble() to scan for a double value
+nextLong(): to scan for a long value.
 
 
 
