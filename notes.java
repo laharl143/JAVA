@@ -116,8 +116,11 @@ output: Goodbye
 ////////////////////////////////////////////////////////////////
 Logical Operators
 
-OR operator: ||    //the condition is true if either of the comparison is true
+OR operator: ||    //the condition is true if either or one of the comparison is true
 AND operator: &&   //the condition is only true if both of the comparison is true
+
+////////////////////////////////////////////////////////////////
+Switch Statements
 
 
 
