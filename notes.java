@@ -138,8 +138,9 @@ Switch vs If-else
 ////////////////////////////////////////////////////////////////
 Delimiters:
 scan.nextInt()/scan.nextLong()/scan.nextDouble()  vs scan.nextLine():
-What is the value of each variable?
+
 /////////////////
+What is the value of each variable?
         Scanner scan = new Scanner(System.in);
  
         int value1 = scan.nextInt();
