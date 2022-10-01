@@ -130,7 +130,7 @@ Rule: You can only use switch to compare one value against a list of others.
       In any other scenario, use if-else
 
 ////////////////////////////////////////////////////////////////
-Switch vs Ifelse
+Switch vs If-else
 -if-else is used 95% of the time
 -if-else runs a piece of code if a condition is true
 -switch runs a piece of code if an argument matches a case
