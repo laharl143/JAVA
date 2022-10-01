@@ -41,3 +41,21 @@ public class Bank {
         scan.close();
     }
 }
+
+/*
+final output:
+****ROYAL BANK OF JAVA****
+Are you here to get a mortgage? (yes or no)
+yes
+
+Great! In one line
+How much money do you have in your savings?
+And, how much do you owe in credit card debt?
+20000 1500 
+
+How many years have you worked for?
+7
+What is your name?
+Erskine
+Congratulations Erskine You have been approved!
+ */
