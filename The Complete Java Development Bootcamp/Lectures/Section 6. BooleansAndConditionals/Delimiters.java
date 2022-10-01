@@ -17,8 +17,8 @@ public class Delimiters {
         double decimal2 = scan.nextDouble();
         
         System.out.println("Enter two text values (on the same line)");
-        String text1 = scan.nextLine();
-        String text2 = scan.nextLine();
+        String text1 = scan.next();
+        String text2 = scan.next();
 
         scan.close();
 
@@ -36,3 +36,5 @@ final output:
         Decimals: 2.3 5.2
         Words:  Hello JAVA
  */
+
+ 

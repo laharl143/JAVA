@@ -135,8 +135,63 @@ Switch vs If-else
 -if-else runs a piece of code if a condition is true
 -switch runs a piece of code if an argument matches a case
 
+////////////////////////////////////////////////////////////////
+Delimiters:
+scan.nextInt()/scan.nextLong()/scan.nextDouble()  vs scan.nextLine():
+What is the value of each variable?
+/////////////////
+        Scanner scan = new Scanner(System.in);
+ 
+        int value1 = scan.nextInt();
+        int value2 = scan.nextInt();
+        double value3 = scan.nextDouble();
+        double value4 = scan.nextDouble();
+        int value5 = scan.nextInt();
+        double value6 = scan.nextDouble();
+        double value7 = scan.nextDouble();
+>>: 25                                           
 
+>>: 54                                           
 
+>>:      78.3      44.3       25                 
+
+>>:      55.4                                    
+
+>>: 33.2  
+
+value1: 25
+value2: 54
+value3: 78.3
+value4: 44.3
+value5: 25
+value6: 55.4
+value7: 33.2
+
+/////////////////
+        Scanner scan = new Scanner(System.in);
+ 
+        String line1 = scan.nextLine();
+        String line2 = scan.nextLine();
+        String line3 = scan.nextLine();
+        String line4 = scan.nextLine();
+        String line5 = scan.nextLine();
+>>: 25                                  
+
+>>: 54                                  
+
+>>:      78.3      44.3       25        
+
+>>:      55.4                           
+
+>>: 33.2         
+
+value1: 25
+value2: 54
+value3:  78.3      44.3       25 
+value4:  55.4
+value5: 33.2
+
+////////////////////////////////////////////////////////////////
 
 
 
