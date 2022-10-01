@@ -114,13 +114,27 @@ if (false) {                                //if the statement is false, it will
 output: Goodbye
 
 ////////////////////////////////////////////////////////////////
-Logical Operators
+Logical Operators   (reference:../section 6/LogicalOperators.java)
 
 OR operator: ||    //the condition is true if either or one of the comparison is true
 AND operator: &&   //the condition is only true if both of the comparison is true
 
 ////////////////////////////////////////////////////////////////
-Switch Statements
+Switch Statements (reference:../section 6/SwitchStatements.java)
+
+switch (month) {
+            case 1: System.out.println("January"); break; //the break keyword helps to break the cycle of printing the other cases below.
+            case 2: System.out.println("February"); break;
+
+Rule: You can only use switch to compare one value against a list of others.
+      In any other scenario, use if-else
+
+////////////////////////////////////////////////////////////////
+Switch vs Ifelse
+-if-else is used 95% of the time
+-if-else runs a piece of code if a condition is true
+-switch runs a piece of code if an argument matches a case
+
 
 
 
