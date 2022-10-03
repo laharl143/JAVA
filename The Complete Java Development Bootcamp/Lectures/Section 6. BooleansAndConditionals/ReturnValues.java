@@ -15,12 +15,12 @@ public class ReturnValues {
         stringPrinter(20.2, 5.6, measure6);
     }
 
-    public static double measureRectangle (double length, double width) {    //inside the parenthesis are parameters
+    public static double measureRectangle (double length, double width) {    //"double" after the "static" is the return type
         double area = length * width;
         return area;
     
     }
-    public static void stringPrinter(double length, double width, double area) {
+    public static void stringPrinter(double length, double width, double area) {  //"void" means the function has no return value
         System.out.println("The area of a rectangle with length " + length + " and width " + width + " is equal to " + area + "\n");
     }
 }
