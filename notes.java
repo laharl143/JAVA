@@ -114,13 +114,13 @@ if (false) {                                //if the statement is false, it will
 output: Goodbye
 
 ////////////////////////////////////////////////////////////////
-Logical Operators   (reference:../section 6/LogicalOperators.java)
+Logical Operators   --(reference:../section 6/LogicalOperators.java)
 
 OR operator: ||    //the condition is true if either or one of the comparison is true
 AND operator: &&   //the condition is only true if both of the comparison is true
 
 ////////////////////////////////////////////////////////////////
-Switch Statements (reference:../section 6/SwitchStatements.java)
+Switch Statements --(reference:../section 6/SwitchStatements.java)
 
 switch (month) {
             case 1: System.out.println("January"); break; //the break keyword helps to break the cycle of printing the other cases below.
@@ -193,7 +193,7 @@ value4:  55.4
 value5: 33.2
 
 ////////////////////////////////////////////////////////////////
-Functions (ref:/section 6/Chorus.java)
+Functions --(ref:/section 6/Chorus.java)
 
 The importance of functions
 -organized and reusable code
@@ -202,8 +202,8 @@ Things to consider:
 -write function names using lowerCamelCase
 -function and method mean the same thing.
 
-
-
+Parameters are the inputs inside the function's "()" parenthesis   --(ref:/section 6/Parameters.java)
+Arguments are the inputs inside the function's "()" parenthesis when you call the function   --(ref:/section 6/Parameters.java)
 
 
 
