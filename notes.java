@@ -213,6 +213,36 @@ What are return values?
 -the value that a function returns
 -return is the last thing that runs. It breaks the function
 
+////////////////////////////////////////////////////////////////
+Doc Comment
+-this is used to describe a function using doc comments
+
+/** */       //to make a Doc Comment boiler plate then press enter to automatically detect @param & @return
+
+/*
+
+Example of Doc Comment 
+ * Function name: calculateArea
+     * 
+     * @param length (double)
+     * @param width (double)
+     * @return      (double)
+     * 
+     * Inside the function:
+     * 1. calculate the area and returns it
+     */
+////////////////////////////////////////////////////////////////
+/* 
 
 
- */
+
+
+
+
+
+
+
+ */ 
+
+
+ 
