@@ -193,6 +193,14 @@ value4:  55.4
 value5: 33.2
 
 ////////////////////////////////////////////////////////////////
+Functions (ref:/section 6/Chorus.java)
+
+The importance of functions
+-organized and reusable code
+
+Things to consider:
+-write function names using lowerCamelCase
+-function and method mean the same thing.
 
 
 
