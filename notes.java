@@ -84,7 +84,7 @@ nextDouble() to scan for a double value
 nextLong(): to scan for a long value.
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-Booleans
+Section 7: Booleans
 
 Comparison || Comparison Name:
 >       greater than
@@ -192,22 +192,26 @@ value3:  78.3      44.3       25
 value4:  55.4
 value5: 33.2
 
-////////////////////////////////////////////////////////////////
-Functions --(ref:/section 6/Chorus.java)
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Section 8: Functions 
 
-The importance of functions
+The importance of functions     --(ref:/section 6/Chorus.java)
 -organized and reusable code
 
 Things to consider:
 -write function names using lowerCamelCase
 -function and method mean the same thing.
 
+////////////////////////////////////////////////////////////////
 Parameters are the inputs inside the function's "()" parenthesis   --(ref:/section 6/Parameters.java)
 Arguments are the inputs inside the function's "()" parenthesis when you call the function   --(ref:/section 6/Parameters.java)
 
+////////////////////////////////////////////////////////////////
+Return values
 
-
-
+What are return values?
+-the value that a function returns
+-return is the last thing that runs. It breaks the function
 
 
 
