@@ -21,5 +21,10 @@ public class BuiltInFunctions {
 
 /*
 final output:
-
+Hello Java
+The sin of 1.2 is: 0.9320390859672263
+2 to the power of 4 is: 16.0
+The random value is: 0.8107875441998507
+The random value from 1-10 is: 8.209115794782212
+The random value from 1-100 is: 86.71941684212672
  */

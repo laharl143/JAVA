@@ -213,6 +213,9 @@ What are return values?
 -the value that a function returns
 -return is the last thing that runs. It breaks the function
 
+System.exit(0);
+-is used to exit or terminate a program
+
 ////////////////////////////////////////////////////////////////
 Doc Comment
 -this is used to describe a function using doc comments
