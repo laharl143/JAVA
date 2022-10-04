@@ -241,12 +241,16 @@ If you make a variable inside a class, you can access it from anywhere inside th
 
 ////////////////////////////////////////////////////////////////
 Built-in Function  --(ref: BuiltInFunctions.java)
+-println(
+-Math.sin() 
+-Math.pow(base, power)
+-Math.random()
+-*and more in the internet*
 
-
-
-
-
-
+A good developer uses the internet:
+-to read documentation
+-and find resources
+-doesn't memorize thousands of functions!!
 
 
 
