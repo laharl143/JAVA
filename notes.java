@@ -61,6 +61,15 @@ boolean: true of false
 String: text    !!!!//always take note that "S" in String is always capital
 
 ////////////////////////////////////////////////////////////////
+Type Casting
+public static void main(String[] args) {
+        double salary = 5833.3333;
+        int roundedSalary = (int)salary;   //change double to int
+        System.out.println("Percy's monthly salary is $" + roundedSalary); 
+    }
+//final output:
+  Percy's monthly salary is $5833
+////////////////////////////////////////////////////////////////
 Operators: (reference: Section 2/MethodOperations.java )
 + (plus)
 - (minus)
