@@ -231,8 +231,16 @@ Example of Doc Comment
      * Inside the function:
      * 1. calculate the area and returns it
      */
-////////////////////////////////////////////////////////////////
 /* 
+////////////////////////////////////////////////////////////////
+Scope
+
+Function scope vs. Class scope 
+If you make a variable inside a function, it only exists inside the function
+If you make a variable inside a class, you can access it from anywhere inside the class
+
+////////////////////////////////////////////////////////////////
+Built-in Function  --(ref: BuiltInFunctions.java)
 
 
 
