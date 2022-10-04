@@ -8,7 +8,18 @@ public class BuiltInFunctions {
         double power = Math.pow(2, 4);  //Math.pow(base, power) is a built in function 
         System.out.println("2 to the power of 4 is: " + power);
 
-        double random = Math.random(); //Math.random function doesn't require any parameter to work
+        double random = Math.random(); //Math.random function doesn't require any parameter to work     //Math.random will only give you a random number from 0-1
         System.out.println("The random value is: " + random);
+
+        double random10 = Math.random() * 10;     //Math.random will give you random number from 1-10 if you multiply it by 10
+        System.out.println("The random value from 1-10 is: " + random10);
+
+        double random100 = Math.random() * 100;     //Math.random will give you random number from 1-100 if you multiply it by 100
+        System.out.println("The random value from 1-100 is: " + random100);
     }
 }
+
+/*
+final output:
+
+ */
