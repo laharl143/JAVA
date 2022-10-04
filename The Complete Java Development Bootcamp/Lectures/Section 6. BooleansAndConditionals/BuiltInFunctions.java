@@ -7,5 +7,8 @@ public class BuiltInFunctions {
 
         double power = Math.pow(2, 4);  //Math.pow(base, power) is a built in function 
         System.out.println("2 to the power of 4 is: " + power);
+
+        double random = Math.random(); //Math.random function doesn't require any parameter to work
+        System.out.println("The random value is: " + random);
     }
 }
