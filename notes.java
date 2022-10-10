@@ -265,6 +265,37 @@ A good developer uses the internet:
 -doesn't memorize thousands of functions!!
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Section 8: For Loop
+
+Loops:
+-for loop
+-while loop
+
+For loop:
+-use 'for loop' when you know how many times a code needs to run.
+-runs code a specific number of times
+
+While loop:
+-use 'while loop' when it's not clear how many times a code needs to run.
+-
+////////////////////////////////////////////////////////////////
+For loop:
+-use 'for loop' when you know how many times a code needs to run.
+-runs code a specific number of times
+
+for (int i=1; i<=3; i++) {      //(int Start;Stop;Step)
+
+}
+1. Start: loop starts running at i = 1
+2. Stop: runs as long as i <= 3 
+3. Step: i increases by 1 after each run
+
+
+
+
+
+
 
  */ 
 
