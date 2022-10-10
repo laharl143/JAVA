@@ -292,11 +292,48 @@ for (int i=1; i<=3; i++) {      //(int Start;Stop;Step)
 3. Step: i increases by 1 after each run
 
 
+////////////////////////////////////////////////////////////////
+print vs println
+
+System.out.println(" a ");
+System.out.println(" b ");
+System.out.println(" c ");
+>> a
+>> b
+>> c
+
+System.out.print(" a ");
+System.out.print(" b ");
+System.out.print(" c ");
+>> a b c
+
+System.out.print("Incoming counters: ");    //print
+ 
+for (int i=0; i<=4; i++) {
+   System.out.print(i + " ");               //print
+}
+// Incoming counters: 0 1 2 3 4
 
 
+System.out.print("Incoming counters: ");    //print
+for (int i=0; i<=4; i++) {
+    System.out.println(i + " ");            //println
+}
+    //Incoming counters: 0
+      1
+      2
+      3
+      4
 
+for (int i=2; i<=10; i+=2) {           //start sa 2, 10 is included, increment of 2
+    System.out.println(i + " ");
+}
 
-
+    //2
+      4
+      6
+      8
+      10
  */ 
 
 
