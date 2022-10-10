@@ -278,7 +278,7 @@ For loop:
 
 While loop:
 -use 'while loop' when it's not clear how many times a code needs to run.
--
+-runs code as long as something is true
 ////////////////////////////////////////////////////////////////
 For loop:
 -use 'for loop' when you know how many times a code needs to run.
@@ -307,6 +307,7 @@ System.out.print(" b ");
 System.out.print(" c ");
 >> a b c
 
+/////
 System.out.print("Incoming counters: ");    //print
  
 for (int i=0; i<=4; i++) {
@@ -314,7 +315,7 @@ for (int i=0; i<=4; i++) {
 }
 // Incoming counters: 0 1 2 3 4
 
-
+/////
 System.out.print("Incoming counters: ");    //print
 for (int i=0; i<=4; i++) {
     System.out.println(i + " ");            //println
@@ -325,6 +326,7 @@ for (int i=0; i<=4; i++) {
       3
       4
 
+/////
 for (int i=2; i<=10; i+=2) {           //start sa 2, 10 is included, increment of 2
     System.out.println(i + " ");
 }
@@ -334,6 +336,64 @@ for (int i=2; i<=10; i+=2) {           //start sa 2, 10 is included, increment o
       6
       8
       10
+
+
+////////////////////////////////////////////////////////////////
+While loop:
+-use 'while loop' when it's not clear how many times a code needs to run.
+-runs code as long as something is true
+
+example:
+
+        double choice = 0.01;
+        double guess = 0.99;
+
+        while (guess > choice) {
+            guess = Math.random();      
+            System.out.println(guess);
+
+/////
+String greet = greeting();
+ 
+public static String greeting() {
+    while (true) {
+         return "hi";
+    }
+     return "  ";                               
+}    
+1. How many times will the while loop run?  //Once
+2. Will line 7 ever get reached?    //No
+3. What is the value of greet?  //hi
+
+//Explanation: 1. The loop is set to run forever, but return breaks the entire function as soon as it gets executed. 2. The first return keyword would have already broken the entire function. 3. The first return keyword returns "hi"
+
+
+/////
+Question:
+Based on this output, which code would be used to produce it?
+User Input: somepassword
+User Input: python
+User Input: javascript
+User Input: Java
+>>: Correct
+
+String password = " ":
+while(!password.equals("Java")){
+    password = scan.nextLine();
+}
+System.out.println("Correct");
+
+//Explanation: 1. The condition is true, so the while loop runs and prompts the user to keep guessing a password. Once the user writes Java, the while loop breaks and println runs.
+
+
+
+
+
+
+
+
+
+
  */ 
 
 
