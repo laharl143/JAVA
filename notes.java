@@ -113,14 +113,14 @@ if (true) {                                 //if the statement is true, it will 
         } else {
             System.out.println("Goodbye");
         }
-output: Hello
+// Hello
 
 if (false) {                                //if the statement is false, it will print the else statement
             System.out.println("Hello");
         } else {
             System.out.println("Goodbye");
         }
-output: Goodbye
+// Goodbye
 
 ////////////////////////////////////////////////////////////////
 Logical Operators   --(reference:../section 6/LogicalOperators.java)
