@@ -377,7 +377,7 @@ User Input: javascript
 User Input: Java
 >>: Correct
 
-String password = " ":
+String password = " ";
 while(!password.equals("Java")){
     password = scan.nextLine();
 }
