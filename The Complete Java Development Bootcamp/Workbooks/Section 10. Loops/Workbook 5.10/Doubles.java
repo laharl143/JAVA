@@ -1,36 +1,59 @@
 public class Doubles {
+
     public static void main(String[] args) {
+    
 
-        /* Task 2
-            1. Call the rollDice() function twice.
-            2. Store the return values in dice1 and dice2.   
-
-        */
-        int dice1;
-        int dice2;
-
-   //      System.out.println("Dice 1: " + dice1);
-   //      System.out.println("Dice 2: " + dice2 + "\n");
-
-        /* Task 3
-            1. Set up a loop that keeps running while the two dice aren't the same.
-            2. During each run, re-roll the dice and print the two values. 
-         */
-
-
-        // Task 4: After they roll doubles, print: You rolled doubles!
+        boolean value = false;
+    
+        while (!value) {
+            int dice1 = rollDice();
+            int dice2 = rollDice();
+                if (dice1 != dice2) {
+                rollDice();
+                    System.out.println("Dice 1: " +dice1);
+                    System.out.println("Dice 2: " +dice2 + "\n");
+                }else if (dice1 == dice2) {
+                    System.out.println("Dice 1: " +dice1);
+                    System.out.println("Dice 2: " +dice2 + "\n");
+                    System.out.println("You rolled doubles!");
+                    System.exit(0);
+                }
+    
+            }
+            
+         }
+    public static int rollDice() {
+        double randomNumber = (int) (Math.floor(Math.random()*6));
+        randomNumber += 1;
+        return (int)randomNumber;
+    
     }
-
-
-    /** Task 1 
-     * Function name: rollDice – rolls a dice between 1 and 6
-     * @return randomNumber (int)
-     * 
-     */
-
+    
+    
 }
 
+/*
+final output:
+Dice 1: 6
+Dice 2: 2
 
+Dice 1: 3
+Dice 2: 2
 
+Dice 1: 6
+Dice 2: 3
 
+Dice 1: 4
+Dice 2: 2
 
+Dice 1: 3
+Dice 2: 5
+
+Dice 1: 6
+Dice 2: 2
+
+Dice 1: 6
+Dice 2: 6
+
+You rolled doubles!
+ */
