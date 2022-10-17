@@ -386,8 +386,9 @@ System.out.println("Correct");
 //Explanation: 1. The condition is true, so the while loop runs and prompts the user to keep guessing a password. Once the user writes Java, the while loop breaks and println runs.
 
 
-
-
+////////////////////////////////////////////////////////////////
+The continue keyword:
+-skips a run, and continues to the next one.
 
 
 
