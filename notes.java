@@ -390,7 +390,19 @@ System.out.println("Correct");
 The continue keyword:
 -skips a run, and continues to the next one.
 
+for (int i = 0; i <= 10; i++) {
+            if (i % 2 != 0) {
+                continue;              //this is commonly used to count by 2 or etc
+            }
+            System.out.println(i);        //0
+                                            2
+                                            4
+                                            6
+                                            8
+                                            10
+        }
 
+    
 
 
 
