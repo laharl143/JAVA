@@ -406,7 +406,27 @@ for (int i = 0; i <= 10; i++) {
 The nested loops:    
 -has an outer loop and an inner loop
 
+for (int i = 0; i < 3; i++) {
+            System.out.println("run: " + i);
+                for(int j = 0; j < 3; j++) {
+                    System.out.println(j);
+                }
+        }       //run: 0
+                  0     
+                  1     
+                  2     
+                  run: 1
+                  0     
+                  1     
+                  2
+                  run: 2
+                  0
+                  1
+                  2
 
+
+Applications of nested loops
+-useful when working with 2D arrays
 
  */ 
 
