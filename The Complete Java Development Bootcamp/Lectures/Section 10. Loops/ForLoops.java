@@ -5,3 +5,10 @@ public class ForLoops {
         }
     }
 }
+
+/* 
+final output:
+1
+2
+3
+*/
