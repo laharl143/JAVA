@@ -402,8 +402,9 @@ for (int i = 0; i <= 10; i++) {
                                             10
         }
 
-    
-
+////////////////////////////////////////////////////////////////
+The nested loops:    
+-has an outer loop and an inner loop
 
 
 
