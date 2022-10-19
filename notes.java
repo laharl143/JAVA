@@ -428,6 +428,20 @@ for (int i = 0; i < 3; i++) {
 Applications of nested loops
 -useful when working with 2D arrays
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  */ 
 
 
